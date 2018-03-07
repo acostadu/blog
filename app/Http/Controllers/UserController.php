@@ -15,9 +15,9 @@ class UserController extends Controller
     {
     	$titulo = 'Esto es otra vista';
     	$usuarios = [
-    		'Danny',
-    		'Patricia',
-    		'Gabriella'
+    		'Danny Acosta',
+    		'Patricia Acosta',
+    		'Gabriella Freites'
     	];
     	return view('users', compact('titulo', 'id', 'usuarios'));
     	//return 'Mostrando detalles del usuario: '.$id;
