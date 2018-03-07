@@ -8,7 +8,7 @@ class UserController extends Controller
 {
     public function index()
     {
-    	return 'Esto es la nueva ruta de Usuarios';
+    	return 'Esto es la nueva ruta de Usuarios para las pruebas de Laravel y GIT';
     }
 
     public function show($id)
